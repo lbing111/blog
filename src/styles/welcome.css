@@ -1,8 +1,7 @@
-.wel {
-  color: #178842;
-  background-color: #42fff0;
-  text-align: center;
-  width: 50%;
-  background: #42fff0;
-  float: left;
+body {
+  background-color: rgba(66, 255, 240, 0.17);
+}
+
+.themes {
+  background-color: red;
 }

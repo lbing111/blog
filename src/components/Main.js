@@ -3,18 +3,18 @@ require('styles/App.css');
 
 import React from 'react';
 
-import WelcomeComponent from './welcome'
+// import WelcomeComponent from './Button'
+import Login from './Login'
+
+const style = {
+  textAlign: 'center'
+};
+
 
 class AppComponent extends React.Component {
   render() {
     return (
-      <div>
-        <WelcomeComponent checked={true} context="hehe" />
-        <WelcomeComponent checked={true} context="hehe" />
-        <div className="index">
-          <div className="notice">This is the entry of blog.</div>
-        </div>
-      </div>
+      <Login style={style}/>
     );
   }
 }

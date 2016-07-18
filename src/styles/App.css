@@ -3,6 +3,10 @@
   clear: both;
 }
 
+body {
+  background-color: #eeeeee;
+}
+
 .index img {
   margin: 40px auto;
   border-radius: 4px;
@@ -18,3 +22,5 @@
   border-width: 1px 0;
   background: rgba(66, 255, 240, 0.48);
 }
+
+
