@@ -9,10 +9,10 @@ const style = {
   display: 'inline-block',
 };
 
-const PaperExampleSimple = () => (
-  <Paper style={style}>
+const LoginPaper = () => (
+  <Paper style={style} zDepth={2} rounded={false}>
     <UserInput />
   </Paper>
 );
 
-export default PaperExampleSimple;
+export default LoginPaper;
